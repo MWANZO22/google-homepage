@@ -1,0 +1,169 @@
+/****************
+Header Styling
+****************/
+
+#headercontainer  
+{
+	text-align: right;
+	
+	
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+	font-family:  arial,sans-serif;
+
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+#headercontainer li 
+{
+	list-style-type: none;
+	display: inline-block;
+	line-height: 50px
+	min-width: 60px;
+	font-size: small;
+	padding: 12px 15px 0px 8px;
+
+}
+#sign_in_button
+{
+	background-color: #4D90FE;
+	background-image: -webkit-linear-gradient(top,#4D90FE,#4787ed);
+	background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+	background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+	background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+	background-image: linear-gradient(top,#4d90fe,#4787ed);
+	border: 1px solid #3079ED;
+	color: white;
+	margin: 0 15px 15px 0;
+	padding: 8px;
+}
+#sign_in_button:hover
+{
+	border: 1px solid #2F5BB7;
+	
+	background-color: #357AE8;
+	background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+	background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+	background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
+	background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
+	background-image: linear-gradient(top,#4d90fe,#357ae8);
+	
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+/**************************
+Logo Styling
+**************************/
+#logocontainer
+{
+	text-align: center;
+
+}
+
+#logocontainer img 
+{
+	text-align: center;
+	margin: center;
+	padding-top: 165px;
+}
+
+/***************************
+Text Box Styling
+***************************/
+
+#searchboxcontainer input
+{
+	display: block;
+	height: 30px;
+	width: 572px;
+	margin: 16px auto 8px;
+
+}
+
+
+
+/***************************
+Submit Button Styling
+****************************/
+
+#submitbuttonscontainer
+{
+	text-align: center;
+}
+
+.searchbutton {
+	margin: 16px 8px;
+	font: bold 11px/27px Arial, sans-serif;
+	vertical-align: top;
+	border: 1px solid #dcdcdc;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	color: #444;
+	font-size: 11px;
+	border-radius: 2px 2px 2px 2px;
+  cursor: default !important;
+  display: inline-block;
+  font-weight: bold;
+  height: 29px;
+  line-height: 29px;
+  min-width: 54px;
+  padding: 0 8px;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+
+
+/***************************
+Footer Styling
+****************************/
+#footercontainer
+{
+	background: #f2f2f2;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+#footnavleft
+{
+	float:left;
+	
+}
+#footnavleft li 
+{
+	display: inline-block;
+	padding: 5px 18px 0px 15px;
+	font:13px/27px Arial,sans-serif;
+
+}
+#footnav ul #footnavright
+{
+	float:right;
+}
+
+
+#footnavright li
+{
+	display: inline-block;
+	padding: 5px 20px 0px 12px;
+	font:13px/27px Arial,sans-serif;
+}
+
+#footnavright
+{
+	float:right;
+	
+}
+
+
+
